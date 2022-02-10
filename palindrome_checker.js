@@ -1,3 +1,5 @@
+// Return true if the given string is a palindrome. Otherwise, return false.
+
 function stringWithAlphas(str) {
     return str.replace(/[^a-z0-9]/gi, "");
   }
